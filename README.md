@@ -12,7 +12,7 @@ Now supports using icons on form field inputs.
 
 Add class 'with-icon-{parameter}' to form field class :
 
-The icon is wrapped in a '''html <span>''' element. By defualt we are using font awesome but any icon libaries will work. You may need to adjust the offset in the css file when accomodating for differnt size icons form field padding etc..
+The icon is wrapped in a span element. By defualt we are using font awesome but any icon libaries will work. You may need to adjust the offset in the css file when accomodating for differnt size icons form field padding etc..
 
 It can take the Before or After Parameter to place the icon at the start or end of the input field.
 
