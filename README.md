@@ -44,6 +44,66 @@ To toggle multiple password fields, pass the ID of each password field to the on
 <span id="togglePassword" class="fa-solid fa-eye-slash input-icon-after" onclick="halfmoon.togglePassword('passwordconfirm', this)"></span>
 ```
 
+### Fake Content Styles
+
+Sometimes, especially when building out admin templates, it's useful to have some way of depicting fake content. The same as used in the Halfmoon docs seen [here](https://www.gethalfmoon.com/page-sections-demo/?sidebar-type=overlayed-sm-and-down&show-alert=yes).
+
+The following CSS classes have been added:
+
+```css
+.fake-window .fake-window-top-row {
+  padding: 1rem;
+  background-color: #ecf0f1;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+}
+
+.dark-mode .fake-window .fake-window-top-row {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.fake-button {
+  display: inline-block;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.fake-button:after {
+ 
+.fake-button:after {
+  content: '\200b';
+}
+
+.fake-content {
+  height: 1.4rem;
+  background-color: #ecf0f1;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  margin-bottom: 1rem;
+  border-radius: 0.2rem;
+}
+
+.dark-mode .fake-content {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.025);
+}
+
+.fake-content:after {
+  content: '\200b';
+}
+
+.fake-content:last-child {
+  margin-bottom: 0;
+}
+
+
+
+
+
+
 
              
 
