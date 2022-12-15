@@ -22,4 +22,12 @@ It can take the Before or After Parameter to place the icon at the start or end 
 <span class="fa-solid fa-eye-slash input-icon-after"></span>
 ```
 
+or
+
+```html
+<input type="password" class="form-control mb-5 with-icon-before" id="password" name="password">
+
+<span class="fa-solid fa-eye-slash input-icon-before"></span>
+```
+
 
