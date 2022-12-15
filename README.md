@@ -98,6 +98,7 @@ The following CSS classes have been added:
 .fake-content:last-child {
   margin-bottom: 0;
 }
+```
 
 
 
